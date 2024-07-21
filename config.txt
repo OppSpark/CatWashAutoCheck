@@ -1,0 +1,5 @@
+autoWashID = MyID
+autoWashPW = MyPW
+
+autoWaxID = MyID
+autoWaxPW = MyPW
