@@ -25,13 +25,13 @@ def autowash_login_and_check_in(autoWashID, autoWashPW):
     userPwd.send_keys(Keys.ENTER)
 
     # 출석체크 페이지로 이동
-    driver.implicitly_wait(time_to_wait=2)
-    driver.find_element(By.CSS_SELECTOR, 'div.fold-icon').click()
-    driver.implicitly_wait(time_to_wait=1)
-    driver.find_element(By.CSS_SELECTOR, 'a.attendBanner').click()
+    time.sleep(2)
+    driver.get(url = 'https://autowash.co.kr/attend/stamp.html')
+
 
     # 출석체크 버튼 누르기
     driver.implicitly_wait(time_to_wait=2)
+
     driver.find_element(By.CSS_SELECTOR, 'a.btnSubmitFix').click()
 
     return driver
