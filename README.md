@@ -6,7 +6,6 @@
 ### 설치할 라이브러리
 - `pip install selenium`
 - `pip install webdriver_manager`
-- `pip install discord_webhook`
 
 ### 1. 프로젝트 소개
 - 세차 용품 사이트에서 매일 출석 체크를 하면 포인트를 적립해주는데, 이를 자동으로 처리해주는 프로젝트입니다.
